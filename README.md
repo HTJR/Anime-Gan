@@ -8,3 +8,7 @@
 ### To train your DCGAN use the gan.ipynb 
 ### There are 500 images in images folder you can changes these images with any images of your choice with size 64 * 64 
 ### You can resize the images using rr.py
+### Use commmand 
+```python
+python -d "directory of images to resize" -s "width height "
+```
