@@ -13,3 +13,12 @@
 python -d "directory of images to resize" -s "width height"
 python -d D:/data/Anime-Gan/images/ -s 64 64
 ```
+### you can change the size of input noise from 5 to any of your choice
+```python
+inputshape=5
+```
+### save the images in "images" folder
+### Adjust the batch size according to you Gpu memory
+### Generated images will be saved in folder "gen1" 
+### Training checkpoints will be saved every 200 Epochs
+### If in between the training your notebook crashes you can continue the training by restoring latest checkpoint
