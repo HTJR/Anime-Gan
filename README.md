@@ -10,5 +10,6 @@
 ### You can resize the images using rr.py
 ### Use commmand 
 ```python
-python -d "directory of images to resize" -s "width height "
+python -d "directory of images to resize" -s "width height"
+python -d D:/data/Anime-Gan/images/ -s 64 64
 ```
