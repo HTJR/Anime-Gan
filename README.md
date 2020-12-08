@@ -17,6 +17,10 @@ python -d D:/data/Anime-Gan/images/ -s 64 64
 ```python
 inputshape=5
 ```
+### to run 
+```python
+python train.py
+```
 ### save the images in "images" folder
 ### Adjust the batch size according to you Gpu memory
 ### Generated images will be saved in folder "gen1" 
