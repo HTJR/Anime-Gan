@@ -35,3 +35,6 @@ predictions = generator(z1, training=False)
 fig = plt.figure(figsize=(4,4))
 plt.imshow(predictions[0])
 ```
+
+
+### use gan.ipynb to run on jupyter notebook or on colab
