@@ -31,7 +31,7 @@ train_images = X.reshape(X.shape[0], 64 , 64 , 3).astype('float32')
 train_images = (train_images - 127.5) / 127.5 # Normalize the images to [-1, 1]
 
 
-BUFFER_SIZE =1000
+BUFFER_SIZE =500
 BATCH_SIZE = 128
 inputshape=10
 #batch and shuffle the data
