@@ -1,4 +1,5 @@
 # Anime-DCGAN
+### Try [Here](https://share.streamlit.io/htjr/deploy-gan/main/gan.py)
 ### A DCGAN to generate anime faces 
 ### The model was trained on 2000 images for 5000 epochs
 ### The model was trained to generate images of size 64 * 64 with input noise of size 5 
